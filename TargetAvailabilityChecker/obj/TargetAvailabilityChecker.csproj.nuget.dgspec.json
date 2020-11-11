@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\source\\repos\\TargetAvailabilityChecker\\TargetAvailabilityChecker\\TargetAvailabilityChecker.csproj": {}
+    "C:\\Users\\User\\source\\repos\\TargetPS5Checker\\TargetAvailabilityChecker\\TargetAvailabilityChecker.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\source\\repos\\TargetAvailabilityChecker\\TargetAvailabilityChecker\\TargetAvailabilityChecker.csproj": {
+    "C:\\Users\\User\\source\\repos\\TargetPS5Checker\\TargetAvailabilityChecker\\TargetAvailabilityChecker.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\source\\repos\\TargetAvailabilityChecker\\TargetAvailabilityChecker\\TargetAvailabilityChecker.csproj",
+        "projectUniqueName": "C:\\Users\\User\\source\\repos\\TargetPS5Checker\\TargetAvailabilityChecker\\TargetAvailabilityChecker.csproj",
         "projectName": "TargetAvailabilityChecker",
-        "projectPath": "C:\\Users\\User\\source\\repos\\TargetAvailabilityChecker\\TargetAvailabilityChecker\\TargetAvailabilityChecker.csproj",
+        "projectPath": "C:\\Users\\User\\source\\repos\\TargetPS5Checker\\TargetAvailabilityChecker\\TargetAvailabilityChecker.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\source\\repos\\TargetAvailabilityChecker\\TargetAvailabilityChecker\\obj\\",
+        "outputPath": "C:\\Users\\User\\source\\repos\\TargetPS5Checker\\TargetAvailabilityChecker\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -21,14 +21,14 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp3.0"
+          "netcoreapp3.1"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp3.0": {
+          "netcoreapp3.1": {
             "projectReferences": {}
           }
         },
@@ -39,15 +39,8 @@
         }
       },
       "frameworks": {
-        "netcoreapp3.0": {
+        "netcoreapp3.1": {
           "dependencies": {
-            "Microsoft.NETCore.App": {
-              "include": "None",
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[3.0.0-preview7-27912-14, )",
-              "autoReferenced": true
-            },
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[12.0.3, )"
@@ -67,7 +60,8 @@
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
-          }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.404\\RuntimeIdentifierGraph.json"
         }
       }
     }

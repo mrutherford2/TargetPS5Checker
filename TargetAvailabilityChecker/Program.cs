@@ -25,21 +25,25 @@ namespace TargetAvailabilityChecker
             const int digitalEditionProductId = 81114596;
             const int discEditionProductId = 81114595;
 
-            using var digitalEditionClient = new HttpClient();
-            string digitalEditionUri = $"https://api.target.com/fulfillment_aggregator/v1/fiats/{digitalEditionProductId}?key={key}&nearby={zipCode}&limit=20&requested_quantity=1&radius=50&fulfillment_test_mode=grocery_opu_team_member_test";
+            HttpResponseMessage digitalEditionResponse = null;
+            HttpResponseMessage discEditionResponse;
 
-            using var discEditionClient = new HttpClient();
-            string discEditionUri = $"https://api.target.com/fulfillment_aggregator/v1/fiats/{discEditionProductId}?key={key}&nearby={zipCode}&limit=20&requested_quantity=1&radius=50&fulfillment_test_mode=grocery_opu_team_member_test";
             while (!inStock)
             {
                 Console.WriteLine("Checking for available stock");
-                var digitalEditionResponseTask = digitalEditionClient.GetAsync(digitalEditionUri);
-                var discEditionResponseTask = discEditionClient.GetAsync(discEditionUri);
 
-                await Task.WhenAll(digitalEditionResponseTask, discEditionResponseTask);
+                using (var digitalEditionClient = new HttpClient())
+                {
+                    string digitalEditionUri = $"https://api.target.com/fulfillment_aggregator/v1/fiats/{digitalEditionProductId}?key={key}&nearby={zipCode}&limit=20&requested_quantity=1&radius=50&fulfillment_test_mode=grocery_opu_team_member_test";
+                    digitalEditionResponse = await digitalEditionClient.GetAsync(digitalEditionUri);
+                }
 
-                var digitalEditionResponse = digitalEditionResponseTask.Result;
-                var discEditionResponse = discEditionResponseTask.Result;
+
+                using (var discEditionClient = new HttpClient())
+                {
+                    string discEditionUri = $"https://api.target.com/fulfillment_aggregator/v1/fiats/{discEditionProductId}?key={key}&nearby={zipCode}&limit=20&requested_quantity=1&radius=50&fulfillment_test_mode=grocery_opu_team_member_test";
+                    discEditionResponse = await discEditionClient.GetAsync(discEditionUri);
+                }
 
                 if (digitalEditionResponse.IsSuccessStatusCode)
                 {
