@@ -1,0 +1,14 @@
+C:\Users\User\source\repos\TargetAvailabilityChecker\TargetAvailabilityChecker\bin\Debug\netcoreapp3.0\TargetAvailabilityChecker.exe
+C:\Users\User\source\repos\TargetAvailabilityChecker\TargetAvailabilityChecker\obj\Debug\netcoreapp3.0\TargetAvailabilityChecker.csprojAssemblyReference.cache
+C:\Users\User\source\repos\TargetAvailabilityChecker\TargetAvailabilityChecker\obj\Debug\netcoreapp3.0\TargetAvailabilityChecker.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\TargetAvailabilityChecker\TargetAvailabilityChecker\obj\Debug\netcoreapp3.0\TargetAvailabilityChecker.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\TargetAvailabilityChecker\TargetAvailabilityChecker\obj\Debug\netcoreapp3.0\TargetAvailabilityChecker.AssemblyInfo.cs
+C:\Users\User\source\repos\TargetAvailabilityChecker\TargetAvailabilityChecker\bin\Debug\netcoreapp3.0\TargetAvailabilityChecker.deps.json
+C:\Users\User\source\repos\TargetAvailabilityChecker\TargetAvailabilityChecker\bin\Debug\netcoreapp3.0\TargetAvailabilityChecker.runtimeconfig.json
+C:\Users\User\source\repos\TargetAvailabilityChecker\TargetAvailabilityChecker\bin\Debug\netcoreapp3.0\TargetAvailabilityChecker.runtimeconfig.dev.json
+C:\Users\User\source\repos\TargetAvailabilityChecker\TargetAvailabilityChecker\bin\Debug\netcoreapp3.0\TargetAvailabilityChecker.dll
+C:\Users\User\source\repos\TargetAvailabilityChecker\TargetAvailabilityChecker\bin\Debug\netcoreapp3.0\TargetAvailabilityChecker.pdb
+C:\Users\User\source\repos\TargetAvailabilityChecker\TargetAvailabilityChecker\bin\Debug\netcoreapp3.0\Newtonsoft.Json.dll
+C:\Users\User\source\repos\TargetAvailabilityChecker\TargetAvailabilityChecker\obj\Debug\netcoreapp3.0\TargetAvailabilityChecker.csproj.CopyComplete
+C:\Users\User\source\repos\TargetAvailabilityChecker\TargetAvailabilityChecker\obj\Debug\netcoreapp3.0\TargetAvailabilityChecker.dll
+C:\Users\User\source\repos\TargetAvailabilityChecker\TargetAvailabilityChecker\obj\Debug\netcoreapp3.0\TargetAvailabilityChecker.pdb
